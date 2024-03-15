@@ -44,7 +44,7 @@ void calcArea() {
 	}
 }
 
-int main() {
-	calcArea();
-	return 0;
-}
+//int main() {
+//	calcArea();
+//	return 0;
+//}
