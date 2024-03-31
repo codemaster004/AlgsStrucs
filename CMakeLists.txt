@@ -8,4 +8,5 @@ add_executable(AlgsStrucs src/main.cpp
         src/mergeSort.cpp
         src/lab2/bigNumSort.cpp
         src/lab2/quickSort.h
+        src/lab2/quickSortTest.h
 )
