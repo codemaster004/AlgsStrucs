@@ -21,13 +21,13 @@ void quicksort(int arrayOfNumbers[], int start_index, int end_index) {
 	int current_index_right = end_index;
 
 	while (true) {
-		while (arrayOfNumbers[current_index_left] < mid_index_value) //if smaller number on the left, increase index
-		{
+		//if smaller number on the left, increase index
+		while (arrayOfNumbers[current_index_left] < mid_index_value) {
 			current_index_left++;
 		}
 
-		while (arrayOfNumbers[current_index_right] > mid_index_value) //if bigger number on the right, decrease index
-		{
+		//if bigger number on the right, decrease index
+		while (arrayOfNumbers[current_index_right] > mid_index_value) {
 			current_index_right--;
 		}
 
