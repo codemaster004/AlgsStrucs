@@ -76,7 +76,7 @@ struct BigInt {
 };
 
 
-int main() {
+int main2() {
 	int nNumbers;
 	scanf("%d\n", &nNumbers);
 	auto* table = new BigInt[nNumbers];

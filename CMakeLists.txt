@@ -9,4 +9,6 @@ add_executable(AlgsStrucs src/main.cpp
         src/lab2/bigNumSort.cpp
         src/lab2/quickSort.h
         src/lab2/quickSortTest.h
+        src/lab3/knapsack.cpp
+        src/lab3/knapsack.h
 )
