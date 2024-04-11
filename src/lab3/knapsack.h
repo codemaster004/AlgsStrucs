@@ -5,8 +5,6 @@
 #ifndef KNAPSACK_H
 #define KNAPSACK_H
 
-void knapsack() {
-
-}
+void knapsack(int nPackages);
 
 #endif //KNAPSACK_H
